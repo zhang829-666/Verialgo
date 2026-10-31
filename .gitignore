@@ -1,0 +1,23 @@
+# 密钥与本地配置
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Agent 运行产物（每个任务都会生成，不入库）
+workspace/*
+!workspace/.gitkeep
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
